@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <>
       <nav id="navbar" className="nav">
+        <div class="hamburger">☰</div>
         <div className="nav-left">
           <img
             className="logo"
