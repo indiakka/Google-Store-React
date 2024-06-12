@@ -5,10 +5,28 @@
   --bold: bold;
 }
 
-.delivery {
-  background-color: #f8f8fa;
+.buy {
+  width: 90%;
+  height: 20vh;
+  background-color: var(--background-color);
+  border-radius: 2%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 30%;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.option-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.delivery {
+  margin-top: 0.5rem;
+}
+
+.delivery img {
+  margin-right: 1rem;
 }

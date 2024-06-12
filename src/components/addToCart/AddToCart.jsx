@@ -1,13 +1,12 @@
 import React from "react";
 import Selector from "../selector/Selector";
-import "./addtocart.css";
+import "./addToCart.css";
 
 const AddToCart = () => {
   return (
     <>
       <div className="buy">
         <p className="titles bold">99,95€</p>
-        <hr />
         <div className="option-container">
           <Selector />
           <button type="submit" className="text-bold">
