@@ -1,11 +1,7 @@
-import React from 'react'
-
-const earbuds = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+const Earbuds = () =>
+{
+    return (
+        <></>
+    )
 }
-
-export default earbuds
+export default Earbuds

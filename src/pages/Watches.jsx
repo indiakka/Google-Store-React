@@ -1,11 +1,7 @@
-import React from 'react'
-
-const watches = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+const Watches = () =>
+{
+    return (
+        <></>
+    )
 }
-
-export default watches
+export default Watches

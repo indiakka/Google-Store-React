@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "./src/layout/Layout.jsx";
-import Earbuds from "../pages/earbuds.jsx";
-import Watches from "../pages/watches.jsx";
-
+import Layout from '../layout/Layout.jsx'
+import Earbuds from "../pages/Earbuds.jsx";
+import Watches from "../pages/Watches.jsx";
+import Cart from '../pages/Cart.jsx'
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Earbuds />,
+        element: < Earbuds/>,
       },
       {
         path: "/watches",
