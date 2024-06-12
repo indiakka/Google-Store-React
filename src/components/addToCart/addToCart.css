@@ -1,0 +1,14 @@
+:root {
+  --titles: 35px;
+  --text-bold: 12px;
+  --text: 12px;
+  --bold: bold;
+}
+
+.delivery {
+  background-color: #f8f8fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30%;
+}
