@@ -1,7 +1,11 @@
-const Watches = () =>
-{
-    return (
-        <></>
-    )
-}
-export default Watches
+import AddToCart from "../components/addToCart/AddToCart";
+
+const Watches = () => {
+  return (
+    <div>
+      <AddToCart />
+    </div>
+  );
+};
+
+export default Watches;
