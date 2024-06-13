@@ -25,10 +25,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="nav-icons">
-          <img src="./src\assets\images/icons/Search.svg" alt="Search" />
-          <img src="./src\assets\images/icons/Help.svg" alt="Help" />
-          <img src="./src\assets\images/icons/Cart.svg" alt="Cart" />
-          <img src="./src\assets\images/icons/Avatar.svg" alt="Avatar" />
+          <img src="./src/assets/images/icons/Search.svg" alt="Search" />
+          <img src="./src/assets/images/icons/Help.svg" alt="Help" />
+          <img src="./src/assets/images/icons/Cart.svg" alt="Cart" />
+          <img src="./src/assets/images/icons/Avatar.svg" alt="Avatar" />
         </div>
       </nav>
     </>
