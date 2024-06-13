@@ -6,15 +6,19 @@ const Footer = () => {
     <div>
       <footer>
         <div className="social-media">
-          <img src="./icons/SM-x.svg" alt="twitter" />
-          <img src="./icons/SM-instagram.svg" alt="instagram" />
-          <img src="./icons/SM-facebook.svg" alt="facebook" />
-          <img src="./icons/SM-youtube.svg" alt="youtube" />
-          <img src="./icons/SM-tiktok.svg" alt="tiktok" />
+          <img src="src/assets/images/icons/SM-x.svg" alt="twitter" />
+          <img src="src/assets/images/icons/SM-instagram.svg" alt="instagram" />
+          <img src="src/assets/images/icons/SM-facebook.svg" alt="facebook" />
+          <img src="src/assets/images/icons/SM-youtube.svg" alt="youtube" />
+          <img src="src/assets/images/icons/SM-tiktok.svg" alt="tiktok" />
         </div>
         <div className="footer-text">
           <p>
-            <img className="flag" src="./icons/Spain.svg" alt="spain_flag" />
+            <img
+              className="flag"
+              src="src/assets/images/icons/Spain.svg"
+              alt="spain_flag"
+            />
             Spain
           </p>
           <p>Privacy</p>
