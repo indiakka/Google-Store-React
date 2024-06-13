@@ -1,3 +1,6 @@
+:root {
+    --blue-color: #1A73E9;
+}
 button {
     width: 60%;
     height: 2rem;

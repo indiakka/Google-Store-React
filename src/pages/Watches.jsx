@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Button from "../components/button/Button";
 
-const watches = () => {
+const Watches = () => {
   return (
     <div>
-      
+      <Button />
     </div>
   )
 }
 
-export default watches
+export default Watches
