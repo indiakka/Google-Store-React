@@ -1,11 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./button.css";
 
-const Button = () => {
+const Button = (text) => {
   return (
     <div>
       <button type="submit" className="text-bold">
-        Add to Cart
+        {text.buttonText}
       </button>
     </div>
   );

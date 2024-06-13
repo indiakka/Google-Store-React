@@ -9,7 +9,7 @@ const AddToCart = () => {
         <p className="titles bold">99,95€</p>
         <div className="option-container">
           <Selector />
-          <Button></Button>
+          <Button buttonText="Add to Cart"></Button>
         </div>
         <p className="delivery text-bold bold">
           <img src="src/assets/images/icons/Delivery.svg" alt="delivery" />
