@@ -1,17 +1,16 @@
 * {
-    font-family: var(--fuente-principal);
+  font-family: Inter, sans-serif;
 }
 
 .contenedor-principal {
-    position: relative;
-    min-height: 100vh;
-
+  position: relative;
+  min-height: 100vh;
 }
 
 .contenedor-principal-navbar-main {
-    padding-bottom: 15rem;
+  padding-bottom: 15rem;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
