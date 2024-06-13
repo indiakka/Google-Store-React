@@ -1,4 +1,4 @@
-import AddToCart from "../components/addToCart/AddToCart";
+import AddToCart from "../../components/addToCart/AddToCart";
 
 const Watches = () => {
   return (
