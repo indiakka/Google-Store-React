@@ -1,7 +1,7 @@
 import React from "react";
 import Selector from "../selector/Selector";
 import "./addToCart.css";
-
+import Button from "../button/Button";
 const AddToCart = () => {
   return (
     <>
@@ -9,9 +9,7 @@ const AddToCart = () => {
         <p className="titles bold">99,95€</p>
         <div className="option-container">
           <Selector />
-          <button type="submit" className="text-bold">
-            Add to Cart
-          </button>
+          <Button buttonText="Add to Cart"></Button>
         </div>
         <p className="delivery text-bold bold">
           <img src="src/assets/images/icons/Delivery.svg" alt="delivery" />

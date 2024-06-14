@@ -1,0 +1,16 @@
+:root {
+  --blue-color: #1a73e9;
+  --text-bold: 12px;
+}
+button {
+  width: 100%;
+  height: 2rem;
+  background-color: var(--blue-color);
+  color: white;
+  border: none;
+  border-radius: 10%;
+}
+
+.text-bold {
+  font-size: var(--text-bold);
+}

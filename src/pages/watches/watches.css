@@ -1,0 +1,239 @@
+:root {
+  --titles: 35px;
+  --subtitles: 20px;
+  --text-bold: 12px;
+  --text: 12px;
+  --footer-text: 8px;
+  --blue-color: #1a73e9;
+  --background-color: #f8f9fb;
+  --bold: bold;
+}
+
+.main {
+  margin: 6rem 0;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.titles {
+  font-size: var(--titles);
+  margin: 0.2rem;
+}
+
+.subtitles {
+  font-size: var(--subtitles);
+}
+
+.text {
+  font-size: var(--text);
+}
+
+.text-bold {
+  font-size: var(--text-bold);
+}
+
+.bold {
+  font-weight: var(--bold);
+}
+
+.product {
+  margin: 0;
+}
+
+.product p {
+  margin: 0 1rem;
+}
+
+.product-detail {
+  margin-top: 1.5rem;
+}
+
+.main-img {
+  width: 95%;
+  height: 40vh;
+  background-color: var(--background-color);
+  border-radius: 2%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.detail-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.small-img {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 98%;
+}
+
+.smartwatch-box {
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.2rem;
+  height: 5rem;
+  width: 7rem;
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin: 0.5rem;
+  }
+
+  .product {
+    grid-area: product;
+    height: 30vh;
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-img {
+    height: 30vh;
+    width: 100%;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-img img {
+    height: 30vh;
+    justify-items: center;
+  }
+
+  .product-details {
+    margin-top: 1rem;
+    height: 20vh;
+  }
+
+  .product-detail {
+    grid-area: product-detail;
+    margin: 0;
+  }
+
+  .choose-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 25%;
+  }
+
+  .choose-color {
+    grid-area: choose-color;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+
+  .detail-container {
+    grid-area: detail-container;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .smartwatch-box {
+    height: 14vh;
+    width: 4.5rem;
+    display: flex;
+    margin-top: 10rem;
+  }
+
+  .smartwatch-box p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .product {
+    margin: 0;
+    height: 20vh;
+    width: 100%;
+  }
+
+  .main-img {
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-img img {
+    width: 30%;
+    height: 20vh;
+  }
+
+  .product-details {
+    height: 20vh;
+  }
+
+  .detail-container {
+    height: 10vh;
+    margin: 0.1rem;
+    width: 100%;
+  }
+
+  .choose-product {
+    height: 15vh;
+    margin: 0.1rem;
+  }
+
+  .choose-color {
+    margin: 0;
+  }
+
+  .smartwatch-box {
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .smartwatch-box p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .small-img {
+    width: 30%;
+  }
+}

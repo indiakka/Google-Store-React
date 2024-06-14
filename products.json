@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "tipe": "Earbuds",
+      "price": 229,
+      "colors": ["Blue", "White", "Black", "Grey", "Green", "Orange"]
+    },
+    {
+      "tipe": "Smartwatches",
+      "price": 99.95,
+      "colors": ["Black", "Pink", "Yellow"]
+    }
+  ]
+}
