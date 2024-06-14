@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Button } from "rsuite"; 
 import "./navbar.css";
 
 const Navbar = () => {
@@ -14,10 +15,15 @@ const Navbar = () => {
           />
           <ul className="nav-list">
             <li>Phones</li>
-            <li className="active-item">Earbuds</li>
             <li>
-              <NavLink to='/watches' className="smartwatch"> 
-                Watches</NavLink>
+              <NavLink to="/" active className="earbuds">
+                Earbuds
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/watches" active className="smartwatch">
+                Watches
+              </NavLink>
             </li>
             <li>Smart Home</li>
             <li>Accesories</li>
@@ -27,7 +33,9 @@ const Navbar = () => {
         <div className="nav-icons">
           <img src="./src/assets/images/icons/Search.svg" alt="Search" />
           <img src="./src/assets/images/icons/Help.svg" alt="Help" />
-          <NavLink to='/cart'><img src="./src/assets/images/icons/Cart.svg" alt="Cart" /></NavLink>
+          <NavLink to="/cart">
+            <img src="./src/assets/images/icons/Cart.svg" alt="Cart" />
+          </NavLink>
           <img src="./src/assets/images/icons/Avatar.svg" alt="Avatar" />
         </div>
       </nav>
