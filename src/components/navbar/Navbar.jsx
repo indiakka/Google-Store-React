@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -15,9 +16,8 @@ const Navbar = () => {
             <li>Phones</li>
             <li className="active-item">Earbuds</li>
             <li>
-              <a className="smartwatch" href="./smartwatch.html">
-                Watches
-              </a>
+              <NavLink to='/watches' className="smartwatch"> 
+                Watches</NavLink>
             </li>
             <li>Smart Home</li>
             <li>Accesories</li>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="nav-icons">
           <img src="./src/assets/images/icons/Search.svg" alt="Search" />
           <img src="./src/assets/images/icons/Help.svg" alt="Help" />
-          <img src="./src/assets/images/icons/Cart.svg" alt="Cart" />
+          <NavLink to='/cart'><img src="./src/assets/images/icons/Cart.svg" alt="Cart" /></NavLink>
           <img src="./src/assets/images/icons/Avatar.svg" alt="Avatar" />
         </div>
       </nav>
