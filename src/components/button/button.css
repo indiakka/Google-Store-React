@@ -1,7 +1,6 @@
 :root {
   --blue-color: #1a73e9;
   --text-bold: 12px;
-
 }
 button {
   width: 100%;
@@ -9,9 +8,10 @@ button {
   background-color: var(--blue-color);
   color: white;
   border: none;
-  border-radius:50px;
+  border-radius: 50px;
   text-align: center;
   padding: 0 2rem;
+  cursor: pointer;
 }
 
 .text-bold {

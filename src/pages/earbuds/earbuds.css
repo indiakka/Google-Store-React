@@ -69,26 +69,32 @@
 
 #blue {
   background-color: #9ec6ea;
+  cursor: pointer;
 }
 
 #white {
   background-color: #e7e4df;
+  cursor: pointer;
 }
 
 #black {
   background-color: #4b4b4d;
+  cursor: pointer;
 }
 
 #grey {
   background-color: #d0d9d8;
+  cursor: pointer;
 }
 
 #green {
   background-color: #dfe5b7;
+  cursor: pointer;
 }
 
 #orange {
   background-color: #e58177;
+  cursor: pointer;
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {

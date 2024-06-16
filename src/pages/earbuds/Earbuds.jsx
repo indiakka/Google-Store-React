@@ -38,6 +38,16 @@ const Earbuds = () => {
               type="image"
               src="src/assets/images/earbuds/earbuds_04.png"
             />
+            <input
+              id="model-earbud"
+              type="image"
+              src="src/assets/images/earbuds/earbuds_01.png"
+            />
+            <input
+              id="model-earbud"
+              type="image"
+              src="src/assets/images/earbuds/earbuds_02.png"
+            />
           </div>
         </section>
         <img

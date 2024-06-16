@@ -98,6 +98,10 @@ hr {
   width: 7rem;
 }
 
+.delivery {
+  margin-top: 1rem;
+}
+
 @media all and (min-width: 576px) and (max-width: 768px) {
   .main {
     display: flex;
