@@ -1,14 +1,16 @@
 import "./selector.css";
 
-const Selector = () => {
-  //   const [selectedValue, setSelectedValue] = useState("value1");
-
+const Selector = ({ setQuantity }) => {
   return (
     <>
-      <select name="select" className="text">
-        <option value="value1"> 1</option>
-        <option value="value2"> 2</option>
-        <option value="value3"> 3</option>
+      <select
+        onChange={(e) => setQuantity(parseInt(e.target.value))}
+        name="select"
+        className="text"
+      >
+        <option> 1</option>
+        <option> 2</option>
+        <option> 3</option>
       </select>
     </>
   );

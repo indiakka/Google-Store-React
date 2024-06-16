@@ -1,7 +1,10 @@
 import Button from "../../components/button/Button";
+import Product from "./Product";
 import "./cart.css";
 
 const Cart = () => {
+  const cart = JSON.parse(localStorage.getItem("cart") ?? "[]");
+  console.log({ cart });
   return (
     <>
       <div>
@@ -9,29 +12,16 @@ const Cart = () => {
         <h2 className="cart-items">(3 items)</h2>
         <div className="cart-container">
           <div className="detail-container">
-            <div className="product-cart">
-              <img
-                src="src/assets/images/earbuds/earbuds_01.png"
-                alt="earbuds"
+            {cart.map((p, i) => (
+              <Product
+                key={i}
+                color={p.color}
+                quantity={p.quantity}
+                product={p.product}
+                price={p.price}
+                image={p.image}
               />
-              <div className="img-detail">
-                <p>Product detail</p>
-                <div className="select-container">
-                  <p>Cant:</p>
-                  <select className="select-cart">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="2">3</option>
-                  </select>
-                </div>
-              </div>
-              <div className="product-price">
-                <div className="products">
-                  <h4> €</h4>
-                  <p className="remove">Remove</p>
-                </div>
-              </div>
-            </div>
+            ))}
             <p class="delivery text-bold bold">
               <img src="src/assets/images/icons/Delivery.svg" alt="delivery" />
               Delivers 29 Apr to <span>08023</span>

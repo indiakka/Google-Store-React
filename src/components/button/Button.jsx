@@ -1,12 +1,15 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./button.css";
 
-const Button = (text) => {
+const Button = ({ onClick, buttonText }) => {
   return (
     <div>
-      <button type="submit" className="text-bold button-purchase">
-        {text.buttonText}
+      <button
+        type="submit"
+        onClick={onClick}
+        className="text-bold button-purchase"
+      >
+        {buttonText}
       </button>
     </div>
   );
