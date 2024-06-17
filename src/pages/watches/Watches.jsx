@@ -88,7 +88,7 @@ const Watches = () => {
                 </div>
               </div>
             </div>
-            <div className="buy">
+            <div className="buy-watches">
               <p className="titles bold">99,95€</p>
               <div className="option-container">
                 <Selector setQuantity={setQuantity} />

@@ -46,7 +46,7 @@
 }
 
 .product-detail {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .main-img {
@@ -67,7 +67,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
   margin: 2rem 0;
 }
@@ -94,12 +94,19 @@ hr {
   flex-direction: column;
   align-items: center;
   padding: 0.2rem;
-  height: 5rem;
-  width: 7rem;
+  height: 3rem;
+  width: 4rem;
 }
 
-.delivery {
-  margin-top: 1rem;
+.small-img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.buy-watches{
+  width: 80%;
+  background-color:#f8f9fb ;
+  padding: 1.5rem;
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
@@ -153,7 +160,6 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 1rem;
     gap: 1rem;
   }
 

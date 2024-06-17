@@ -11,7 +11,7 @@ const Cart = () => {
         <h1 className="cart">Cart</h1>
         <h2 className="cart-items">(3 items)</h2>
         <div className="cart-container">
-          <div className="detail-container">
+          <div className="detail-cart-container">
             {cart.map((p, i) => (
               <Product
                 key={i}

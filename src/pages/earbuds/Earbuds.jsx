@@ -13,7 +13,7 @@ const Earbuds = () => {
   return (
     <>
       <div class="header-bottom">
-        <p class="details">🡨 See product details</p>
+        <p class="text-smartwatch">🡨 See product details</p>
       </div>
       <div className="container-earbuds">
         <section class="images-section">
@@ -120,7 +120,7 @@ const Earbuds = () => {
             <p className="titles bold">229 €</p>
             <div className="option-container">
               <Selector setQuantity={setQuantity} />
-              <AddToCart
+              <AddToCart className='add-to-cart'
                 color={color}
                 quantity={quantity}
                 product={"earbuds"}
