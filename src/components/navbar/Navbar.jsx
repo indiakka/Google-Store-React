@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="nav-left">
           <img
             className="logo"
-            src="src\assets\images\google-logo.png"
+            src="\assets\images\google-logo.png"
             alt="Google"
           />
           <ul className="nav-list">
@@ -30,12 +30,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="nav-icons">
-          <img src="./src/assets/images/icons/Search.svg" alt="Search" />
-          <img src="./src/assets/images/icons/Help.svg" alt="Help" />
+          <img src="./assets/images/icons/Search.svg" alt="Search" />
+          <img src="./assets/images/icons/Help.svg" alt="Help" />
           <NavLink to="/cart">
-            <img src="./src/assets/images/icons/Cart.svg" alt="Cart" />
+            <img src="./assets/images/icons/Cart.svg" alt="Cart" />
           </NavLink>
-          <img src="./src/assets/images/icons/Avatar.svg" alt="Avatar" />
+          <img src="./assets/images/icons/Avatar.svg" alt="Avatar" />
         </div>
       </nav>
     </>

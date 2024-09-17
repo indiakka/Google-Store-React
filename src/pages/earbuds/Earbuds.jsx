@@ -5,9 +5,7 @@ import { useState } from "react";
 
 const Earbuds = () => {
   const [color, setColor] = useState("blue");
-  const [image, setImage] = useState(
-    "src/assets/images/earbuds/earbuds_01.png"
-  );
+  const [image, setImage] = useState("assets/images/earbuds/earbuds_01.png");
   const [quantity, setQuantity] = useState(1);
 
   return (
@@ -21,38 +19,38 @@ const Earbuds = () => {
             <input
               id="model-earbud"
               type="image"
-              src="src/assets/images/earbuds/earbuds_01.png"
+              src="assets/images/earbuds/earbuds_01.png"
             />
             <input
               id="model-earbud"
               type="image"
-              src="src/assets/images/earbuds/earbuds_02.png"
+              src="assets/images/earbuds/earbuds_02.png"
             />
             <input
               id="model-earbud"
               type="image"
-              src="src/assets/images/earbuds/earbuds_03.png"
+              src="assets/images/earbuds/earbuds_03.png"
             />
             <input
               id="model-earbud"
               type="image"
-              src="src/assets/images/earbuds/earbuds_04.png"
+              src="assets/images/earbuds/earbuds_04.png"
             />
             <input
               id="model-earbud"
               type="image"
-              src="src/assets/images/earbuds/earbuds_01.png"
+              src="assets/images/earbuds/earbuds_01.png"
             />
             <input
               id="model-earbud"
               type="image"
-              src="src/assets/images/earbuds/earbuds_02.png"
+              src="assets/images/earbuds/earbuds_02.png"
             />
           </div>
         </section>
         <img
           class="main-banner"
-          src="src/assets/images/earbuds/earbuds_01.png"
+          src="assets/images/earbuds/earbuds_01.png"
           alt="Earbuds"
         />
         <section class="main-aside">
@@ -69,7 +67,7 @@ const Earbuds = () => {
                 style={{ borderWidth: color === "blue" ? "3px" : "1px" }}
                 onClick={() => {
                   setColor("blue");
-                  setImage("src/assets/images/earbuds/earbuds_01.png");
+                  setImage("assets/images/earbuds/earbuds_01.png");
                 }}
                 id="blue"
               />
@@ -77,7 +75,7 @@ const Earbuds = () => {
                 style={{ borderWidth: color === "white" ? "3px" : "1px" }}
                 onClick={() => {
                   setColor("white");
-                  setImage("src/assets/images/earbuds/earbuds_02.png");
+                  setImage("assets/images/earbuds/earbuds_02.png");
                 }}
                 id="white"
               />
@@ -85,7 +83,7 @@ const Earbuds = () => {
                 style={{ borderWidth: color === "black" ? "3px" : "1px" }}
                 onClick={() => {
                   setColor("black");
-                  setImage("src/assets/images/earbuds/earbuds_03.png");
+                  setImage("assets/images/earbuds/earbuds_03.png");
                 }}
                 id="black"
               />
@@ -93,7 +91,7 @@ const Earbuds = () => {
                 style={{ borderWidth: color === "grey" ? "3px" : "1px" }}
                 onClick={() => {
                   setColor("grey");
-                  setImage("src/assets/images/earbuds/earbuds_04.png");
+                  setImage("assets/images/earbuds/earbuds_04.png");
                 }}
                 id="grey"
               />
@@ -101,7 +99,7 @@ const Earbuds = () => {
                 style={{ borderWidth: color === "green" ? "3px" : "1px" }}
                 onClick={() => {
                   setColor("green");
-                  setImage("src/assets/images/earbuds/earbuds_05.png");
+                  setImage("assets/images/earbuds/earbuds_05.png");
                 }}
                 id="green"
               />
@@ -109,7 +107,7 @@ const Earbuds = () => {
                 style={{ borderWidth: color === "orange" ? "3px" : "1px" }}
                 onClick={() => {
                   setColor("orange");
-                  setImage("src/assets/images/earbuds/earbuds_06.png");
+                  setImage("assets/images/earbuds/earbuds_06.png");
                 }}
                 id="orange"
               />
@@ -120,7 +118,8 @@ const Earbuds = () => {
             <p className="titles bold">229 €</p>
             <div className="option-container">
               <Selector setQuantity={setQuantity} />
-              <AddToCart className='add-to-cart'
+              <AddToCart
+                className="add-to-cart"
                 color={color}
                 quantity={quantity}
                 product={"earbuds"}
@@ -129,7 +128,7 @@ const Earbuds = () => {
               />
             </div>
             <p className="delivery text-bold bold">
-              <img src="src/assets/images/icons/Delivery.svg" alt="delivery" />
+              <img src="assets/images/icons/Delivery.svg" alt="delivery" />
               Delivers 29 Apr to <span>08023</span>
             </p>
           </div>

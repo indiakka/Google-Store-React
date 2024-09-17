@@ -15,7 +15,7 @@ const Watches = () => {
           <p className="text"> 🡠 See products details</p>
           <div className="main-img">
             <img
-              src="src/assets/images/smartwatch/smartwatch_black.png"
+              src="/assets/images/smartwatch/smartwatch_black.png"
               alt="smartwatch_black"
             />
           </div>
@@ -36,14 +36,14 @@ const Watches = () => {
                 }}
                 onClick={() => {
                   setColor("Midnight Zen");
-                  setImage("src/assets/images/smartwatch/smartwatch_black.png");
+                  setImage("gootg/assets/images/smartwatch/smartwatch_black.png");
                 }}
                 className="smartwatch-box"
               >
                 <div className="image-container">
                   <img
                     className="small-img"
-                    src="src/assets/images/smartwatch/smartwatch_black.png"
+                    src="assets/images/smartwatch/smartwatch_black.png"
                     alt="smartwatch_black"
                   />
                   <p className="text">Midnight Zen</p>
@@ -53,14 +53,14 @@ const Watches = () => {
                 style={{ borderWidth: color === "Lilac Bliss" ? "3px" : "1px" }}
                 onClick={() => {
                   setColor("Lilac Bliss");
-                  setImage("src/assets/images/smartwatch/smartwatch_pink.png");
+                  setImage("assets/images/smartwatch/smartwatch_pink.png");
                 }}
                 className="smartwatch-box"
               >
                 <div className="image-container">
                   <img
                     className="small-img"
-                    src="src/assets/images/smartwatch/smartwatch_pink.png"
+                    src="assets/images/smartwatch/smartwatch_pink.png"
                     alt="smartwatch_pink"
                   />
                   <p className="text">Lilac Bliss</p>
@@ -72,16 +72,14 @@ const Watches = () => {
                 }}
                 onClick={() => {
                   setColor("Morning Glow");
-                  setImage(
-                    "src/assets/images/smartwatch/smartwatch_yellow.png"
-                  );
+                  setImage("assets/images/smartwatch/smartwatch_yellow.png");
                 }}
                 className="smartwatch-box"
               >
                 <div className="image-container">
                   <img
                     className="small-img"
-                    src="src/assets/images/smartwatch/smartwatch_yellow.png"
+                    src="assets/images/smartwatch/smartwatch_yellow.png"
                     alt="smartwatch_yellow"
                   />
                   <p className="text">Morning Glow</p>
@@ -101,10 +99,7 @@ const Watches = () => {
                 />
               </div>
               <p className="delivery text-bold bold">
-                <img
-                  src="src/assets/images/icons/Delivery.svg"
-                  alt="delivery"
-                />
+                <img src="assets/images/icons/Delivery.svg" alt="delivery" />
                 Delivers 29 Apr to <span>08023</span>
               </p>
             </div>

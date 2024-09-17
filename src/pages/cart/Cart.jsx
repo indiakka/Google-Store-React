@@ -23,7 +23,7 @@ const Cart = () => {
               />
             ))}
             <p class="delivery text-bold bold">
-              <img src="src/assets/images/icons/Delivery.svg" alt="delivery" />
+              <img src="assets/images/icons/Delivery.svg" alt="delivery" />
               Delivers 29 Apr to <span>08023</span>
             </p>
             <hr />
